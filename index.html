@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albay Dialects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          
+                 <!-- Hidden logo initially -->
+        <div class="logo-container" id="nav-logo">
+          <img src="bg/logo2.png" alt="Navigation Logo">
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="dialect.html">Dialects</a></li>
+            <li><a href="forum.html">Forum</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="menu-bg" id="menu-bg"></div>
+</div>
+
+<div class="dialect">
+  <h1 style="text-align: center;">Learn Different Dialects with us</h1>
+</div>
+
+<div class="logo-container">
+  <img src="bg/logo.png" alt="Albay Dialects Logo">
+</div>
+
+<div class="about">
+  <div class="about-text">
+    <h2>Discover Albay's diverse <br>dialects for enriched <br> cultural understanding.</h2>
+    <p>Dive into the vibrant linguistic landscape of Albay, where diverse dialects intertwine 
+      to reflect its rich cultural heritage. From the melodious Bicolano to the rhythmic Legazpi, 
+      each dialect offers a unique window into the region's history and traditions.</p>
+  </div>
+  <div class="collage">
+    <img src="bg/woman-teaching-kids-english-lesson-online.jpg" alt="Image 1" class="collage-image">
+    <img src="bg/small-girl-thinking-about-foreign-phrases.jpg" alt="Image 2" class="collage-image">
+  </div>
+</div>
+
+
+<div class="cat">
+  <h1>Available Dialects</h1>
+<div class="category" style="background-image: url('bg/category1.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+<div class="category" style="background-image: url('bg/category2.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+<div class="category" style="background-image: url('bg/category3.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+<div class="category" style="background-image: url('bg/category4.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+<div class="category" style="background-image: url('bg/category5.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+<div class="category" style="background-image: url('bg/category6.jpg');">
+    <button class="category-button">Explore</button>
+</div>
+
+</div>
+
+<div class="content">
+  <div class="image-container">
+    <img src="bg/category1.jpg" alt="Image" class="content-image">
+  </div>
+  <div class="text-container">
+    <h5>ABOUT US</h5>
+    <h1>Albay Dialects Hub: Fostering Inclusive Community Development</h1>
+    <p>Language plays a crucial role in defining culture and identity, and the diverse range of 
+      dialects in the Albay region adds unique flavors to our local culture. This project aims to 
+      develop an inclusive online platform for learning the various dialects spoken across Albay, 
+      fostering unity among communities and preserving the linguistic tapestry of the region.</p>
+      <button class="know-more-btn" href="about.html">Know more about us</button>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social-icon">
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+    <li class="social-icon__item"><a class="social-icon__link" href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="f-menu">
+    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+    <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Dialects</a></li>
+    <li class="menu__item"><a class="menu__link" href="#">Forum</a></li>
+
+  </ul>
+  <p>2024 Albay Dialects | All Rights Reserved</p>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script>
+    function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
+</script>
+    
+</body>
+</html>
